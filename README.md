@@ -6,7 +6,7 @@
 
 A 13-page research paper on how Large Language Models (LLMs) work, where they are used in the DACH region and what it takes to adapt them to Swiss education and Swiss German.
 
-**[📄 Read the paper (PDF)](AFE1_LLM_Paper.pdf)**
+**[Read the paper (PDF)](AFE1_LLM_Paper.pdf)**
 
 ---
 
@@ -51,7 +51,7 @@ A 13-page research paper on how Large Language Models (LLMs) work, where they ar
 ## Follow-up work
 
 The paper is the first phase of a two-phase project. In the second phase the team trained a text-generation model on Bernese Swiss German song lyrics:
-➡️ [LLM-Swiss-German-Song](https://github.com/sreterannamaria/LLM-Swiss-German-Song)
+[swiss-german-lyrics-generator](https://github.com/sreterannamaria/swiss-german-lyrics-generator)
 
 ## Repository structure
 
