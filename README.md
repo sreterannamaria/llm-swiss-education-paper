@@ -1,57 +1,80 @@
-# LLM-swiss-education-paper
 # Large Language Models – Text Analysis and Generation in the Era of Generative AI
 
-This repository contains the research summary and academic report of a master's-level paper focused on **Large Language Models (LLMs)** and their application across key domains in the DACH region, with a focus on Switzerland.
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+![Type: Research paper](https://img.shields.io/badge/type-research%20paper-blue)
+![Year: 2024](https://img.shields.io/badge/year-2024-informational)
 
-## Project Context
+A 13-page research paper on how Large Language Models (LLMs) work, where they are used in the DACH region and what it takes to adapt them to Swiss education and Swiss German.
 
-This work was created as part of an applied research module (AFE1) at the **Lucerne University of Applied Sciences and Arts (HSLU)** and the **Fernfachhochschule Schweiz (FFHS)** in spring 2024.
-
-The paper provides both technical and application-oriented insights into LLMs, laying the groundwork for future prototyping in education and Swiss-specific domains.
-
----
-
-## Overview
-
-- **Architecture Focus:** NLP, NLU, NLG, LoRA, fine-tuning
-- **Use Cases Covered:**  
-  - Education (educaAI, Syntea)  
-  - Law (Noxtua, SwissLLM, CMS)  
-  - Customer service (Spitch, Whisper)  
-  - Swiss German context (low-resource languages)
-- **Challenges Discussed:**  
-  - Data bias and transparency  
-  - Misinformation and hallucinations  
-  - Ethical concerns and privacy  
-- **Outlook:**  
-  - Prototype phase planned using fine-tuning for Swiss education  
-  - Strategic potential for AI adoption in multilingual Swiss markets
+**[📄 Read the paper (PDF)](AFE1_LLM_Paper.pdf)**
 
 ---
 
-## 📄 File Structure
+## Research question
+
+> *How can Large Language Models be effectively adapted to the specific needs of the education sector in a German-speaking context and used to enhance learning processes?*
+
+## Context
+
+| | |
+|---|---|
+| **Institution** | Lucerne University of Applied Sciences and Arts (HSLU) & Swiss Distance University of Applied Sciences (FFHS) |
+| **Module** | AFE1 – Applied Research and Development, Master's level |
+| **Semester** | Spring 2024 (submitted June 2024) |
+| **Method** | Literature review and an expert interview with the founder of the German education LLM *educa AI* |
+| **Authors** | Seraina Fischer, Bigna Schmid, Annamária Sréter |
+
+## What the paper covers
+
+1. **Technical foundations:** NLP, NLU and NLG, the transformer architecture and parameter-efficient fine-tuning with **LoRA**.
+2. **State-of-the-art models:** open-source LLMs (e.g. LLaMA, Mistral), small language models (e.g. Phi-3) and Swiss LLM initiatives.
+3. **Key people:** researchers who shaped the field, from Turing and Weizenbaum to Hinton and Karpathy.
+4. **Applications in the DACH region**, in four sectors:
+
+   | Sector | Examples discussed |
+   |---|---|
+   | Education | educa AI, Syntea |
+   | Law | Noxtua (CMS), SwissLLM |
+   | Customer service | Spitch |
+   | Swiss German | Whisper-based speech recognition, Swiss German translation systems |
+
+5. **Challenges:** bias, hallucinations and misinformation, transparency, privacy and the effects on the job market.
+
+## Key findings
+
+- **Educational LLMs need context-based answers.** Generic responses often do not match the material a teacher actually covers.
+- **German and Swiss German add language-specific difficulties.** Dialects without a standard spelling are low-resource languages and need dedicated data and models.
+- **The Swiss market has high potential and little competition.** The paper recommends that providers work with Swiss universities to tailor models to local languages and use cases.
+- **Responsible deployment is essential.** That means fairness, transparency and data protection.
+
+## Follow-up work
+
+The paper is the first phase of a two-phase project. In the second phase the team trained a text-generation model on Bernese Swiss German song lyrics:
+➡️ [LLM-Swiss-German-Song](https://github.com/sreterannamaria/LLM-Swiss-German-Song)
+
+## Repository structure
 
 ```
-├── AFE1_LLM_Paper.pdf
-├── README.md
+├── AFE1_LLM_Paper.pdf   # Full paper (13 pages)
+└── README.md
 ```
 
----
+## Citation
 
-## 🖋️ Authors
+```bibtex
+@techreport{fischer2024llm,
+  title       = {Large Language Models -- Text Analysis and Generation in the Era of Generative AI},
+  author      = {Fischer, Seraina and Schmid, Bigna and Sr{\'e}ter, Annam{\'a}ria},
+  institution = {Lucerne University of Applied Sciences and Arts (HSLU) and FFHS},
+  type        = {Applied research paper (AFE1)},
+  year        = {2024}
+}
+```
 
-- Annamária Sréter  
-- Seraina Fischer  
-- Bigna Schmid
+## Acknowledgments
 
----
+Thanks to Benjamin Ledel (Digital Learning GmbH, *educa AI*) for the expert interview.
 
-## 📄 License
+## License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
-
-You may share and adapt the work for non-commercial purposes with proper attribution. Commercial use is not permitted.
-
-[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-
-
+This work is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). You may share and adapt it for non-commercial purposes with appropriate credit.
