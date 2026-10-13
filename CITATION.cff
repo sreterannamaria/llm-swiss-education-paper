@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you refer to this paper, please cite it as below."
+type: report
+title: "Large Language Models – Text Analysis and Generation in the Era of Generative AI"
+authors:
+  - family-names: Fischer
+    given-names: Seraina
+  - family-names: Schmid
+    given-names: Bigna
+  - family-names: Sréter
+    given-names: Annamária
+institution:
+  name: "Lucerne University of Applied Sciences and Arts (HSLU) and Swiss Distance University of Applied Sciences (FFHS)"
+date-released: 2024-06-10
+license: CC-BY-NC-4.0
+url: "https://github.com/sreterannamaria/llm-swiss-education-paper"
