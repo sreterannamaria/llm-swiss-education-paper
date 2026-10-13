@@ -23,6 +23,7 @@ A 13-page research paper on how Large Language Models (LLMs) work, where they ar
 | **Semester** | Spring 2024 (submitted June 2024) |
 | **Method** | Literature review and an expert interview with the founder of the German education LLM *educa AI* |
 | **Authors** | Seraina Fischer, Bigna Schmid, Annamária Sréter |
+| **My contribution** | Co-author of the paper and participant in the expert interview with *educa AI* |
 
 ## What the paper covers
 
